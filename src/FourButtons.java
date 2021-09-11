@@ -8,4 +8,8 @@ public class FourButtons {
     private JPanel bottomRightPanel;
     private JPanel topPanel;
     private JPanel bottomPanel;
+    private JButton Button1;
+    private JButton Button2;
+    private JButton Button3;
+    private JButton Button4;
 }
