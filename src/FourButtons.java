@@ -28,6 +28,15 @@ public class FourButtons {
 
             }
         });
+        Button2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                String num2 = Button2.getText();
+                numberField.setText(num2);
+
+            }
+        });
     }
 
     public static void main(String[] args) {
