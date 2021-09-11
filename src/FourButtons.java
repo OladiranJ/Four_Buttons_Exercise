@@ -46,6 +46,15 @@ public class FourButtons {
 
             }
         });
+        Button4.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                String num4 = Button4.getText();
+                numberField.setText(num4);
+
+            }
+        });
     }
 
     public static void main(String[] args) {
